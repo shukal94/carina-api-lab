@@ -1,0 +1,94 @@
+[2020-07-24 12:16:32] [APISampleTest.java] [19] [INFO] 
+Before Method
+
+[2020-07-24 12:16:32] [IMessager.java] [19] [INFO]  TEST [User API tests - testDeleteUsers] STARTED at [12:16:32 2020-07-24]
+[2020-07-24 12:16:37] [AbstractApiMethodV2.java] [19] [INFO] Base properties loaded: api/users/user.properties
+[2020-07-24 12:16:46] [LoggingOutputStream.java] [19] [INFO] Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "oomsrxwo",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "bdkrmmhn",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Leanne Graham",
+        "username": "oomsrxwo",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "bdkrmmhn",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    }
+]
+HTTP/1.1 200 OK
+Date: Fri, 24 Jul 2020 09:16:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=d3b2623cc7aaba600ccbf6b6b997c8c931595582206; expires=Sun, 23-Aug-20 09:16:46 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1595582236
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0421b5684f000084c8aa339200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 5b7c8b53bc8184c8-LED
+
+{
+    
+}
+
+[2020-07-24 12:16:47] [IMessager.java] [19] [INFO]  TEST [User API tests - testDeleteUsers] PASSED at [12:16:47 2020-07-24]

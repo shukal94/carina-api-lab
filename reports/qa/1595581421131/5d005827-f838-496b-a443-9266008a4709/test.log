@@ -1,0 +1,2 @@
+[2020-07-24 12:04:09] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-07-24 12:04:09] [IMessager.java] [1] [INFO] RESULT #1: TEST [demo-api-lab - testCreateUser] PASS [log=./1595581421131/72e69c8a-b88f-4a24-b686-65867565b493/test.log]

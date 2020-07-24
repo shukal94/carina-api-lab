@@ -1,0 +1,11 @@
+[2020-07-24 01:01:30] [APISampleTestV2.java] [1] [INFO] 
+After Method
+
+[2020-07-24 01:01:30] [APISampleTestV2.java] [1] [INFO] 
+After class
+
+[2020-07-24 01:01:30] [BaseTest.java] [1] [INFO] 
+After Test
+
+[2020-07-24 01:01:30] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-07-24 01:01:30] [IMessager.java] [1] [INFO] RESULT #1: TEST [demo-api-lab - testCreateAzureUser] PASS [log=./1595584869992/7c8f0b68-0029-47b2-8ed7-6bbb3086cc7d/test.log]
