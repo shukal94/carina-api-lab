@@ -41,8 +41,6 @@ public class GSMArenaHomePageTest extends AbstractTest {
 
     private static final String LOGIN_FAILED_MESSAGE_EXPECTED = "Login failed.";
 
-
-
     @BeforeTest
     public void initializeDriverHelper() {
         LOGGER.info("Will initialize driver helper.");
@@ -94,7 +92,7 @@ public class GSMArenaHomePageTest extends AbstractTest {
         loginButton.click();
         Assert.assertNotNull(driverHelper.findExtendedWebElement(LoginForm.LOGIN_FORM_PARENT), "Login form was not opened!");
 
-        driverHelper.findExtendedWebElement(LoginForm.EMAIL_INPUT).type(INCORRECT_LOGIN);
+        driverHelper.findExtendedWebElement(LoginForm.EMAIL_INPUT, 30).type(INCORRECT_LOGIN);
         driverHelper.findExtendedWebElement(LoginForm.PASSWORD_INPUT).type(INCORRECT_PASSWORD);
 
         driverHelper.findExtendedWebElement(LoginForm.SUBMIT_BUTTON).click();

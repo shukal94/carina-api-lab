@@ -1,2 +1,0 @@
-[2020-07-31 12:43:45] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2020-07-31 12:43:45] [IMessager.java] [1] [INFO] RESULT #1: TEST [demo-api-lab - validateBaseElementsOnPageHeader] FAIL [screenshots=./1596188559823/1803597b-5692-42db-ad99-bf16d5c9a253/report.html | log=./1596188559823/1803597b-5692-42db-ad99-bf16d5c9a253/test.log]
